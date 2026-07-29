@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "collected_at": "2026-07-29T05:22:00Z",
+    "sources": [
+      "linkedin:https://www.linkedin.com/in/victor-eduardo-medeiros/",
+      "gupy:curriculum+api (userId 54116666)"
+    ],
+    "notes": [
+      "Nome completo prioriza LinkedIn; Gupy cadastra name/lastName de forma truncada (Victor / Eduardo).",
+      "Descrições de experiência: versão mais completa da Gupy; LinkedIn alinhado e usado no about/headline.",
+      "Campo taxpayerRegistry (CPF) e dados de diversidade incluídos por estarem no perfil Gupy — use com cuidado em CVs públicos."
+    ]
+  },
+
+  "personal": {
+    "full_name": "Victor Eduardo Medeiros Jesus",
+    "first_name_gupy": "Victor",
+    "last_name_gupy": "Eduardo",
+    "headline_linkedin": "Desenvolvedor Full-Stack | IA · LLMs · RAG · MCP | Next.js · NestJS · Node · Python · TypeScript | GCP · Neo4j · MongoDB · pgvector",
+    "email": "eduardomedeirosngx@gmail.com",
+    "mobile": "+5593984145823",
+    "phone": null,
+    "birth_date": "2004-05-04",
+    "gender": "M",
+    "location": {
+      "country": "Brasil",
+      "country_code": "BR",
+      "state": "Pará",
+      "state_short": "PA",
+      "city": "Santarém",
+      "street": "Travessa dos Cabanos",
+      "zip_code": "68010-120",
+      "address_line": "Travessa dos Cabanos, Santarém, Pará, Brasil",
+      "origin_city": "Novo Progresso",
+      "origin_state": "PA",
+      "work_preference": "Brasil · Remoto (BR ou gringa)"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/victor-eduardo-medeiros/",
+      "github": "https://github.com/doytedoyenr",
+      "portfolio": null
+    },
+    "open_to_work": {
+      "status": true,
+      "target_roles": [
+        "Desenvolvedor full stack",
+        "Desenvolvedor web freelancer"
+      ],
+      "level_interest": "mid/senior full-stack (remoto BR ou gringa) onde full-stack + AI product sejam o core da vaga"
+    },
+    "sensitive_gupy": {
+      "taxpayer_registry_cpf": "05398539256",
+      "gupy_user_id": 54116666
+    }
+  },
+
+  "about": {
+    "summary_linkedin": "Full-stack (~5 anos), com atuação sênior em produto de IA e fintech solar. Construo e evoluo sistemas end-to-end em Next.js + NestJS + TypeScript, com IA embutida no fluxo (LLMs, RAG, agents, MCP) — não demo de chat genérico.\n\nTrajetória: ERP multi-filial e sistemas críticos (Grupo ASE) → produtos multi-cliente full-stack (Unew) → Eos Loan, plataforma de financiamento de energia solar (crédito, integrações, dados e IA), greenfield em paralelo ao legado.\n\nDestaque: reescrevi o motor de análise de crédito que rodava em ~5 min no Power Automate para menos de 20 s em backend NestJS; otimizei a listagem de propostas (query crítica) com redução de carga no banco e cache; implementei RAG/agents para atendimento e observabilidade para mapear robôs, funções e queries lentas.\n\nO que entrego bem:\n• Fatias verticais (UI → API → dados → observabilidade)\n• Otimização de gargalos reais com métrica\n• IA com contexto de domínio, guardrails e custo sob controle\n\nStack: Next.js · NestJS · TypeScript · Python/FastAPI · PostgreSQL/pgvector · MongoDB · Neo4j · GCP · Docker/K8s · n8n\n\nBaseado no Brasil · Remoto. Aberto a mid/senior full-stack (remoto BR ou gringa) onde full-stack + AI product sejam o core da vaga.",
+    "years_experience_approx": 5,
+    "top_skills_linkedin": [
+      "React.js",
+      "Node.js",
+      "Google Cloud Platform (GCP)",
+      "NestJS",
+      "TypeScript"
+    ],
+    "services_linkedin": [
+      "Desenvolvimento de software personalizado",
+      "Desenvolvimento web",
+      "Desenvolvimento de SaaS",
+      "Desenvolvimento de aplicativos na nuvem",
+      "Análise de dados nos negócios",
+      "Desenvolvimento de banco de dados"
+    ]
+  },
+
+  "experience": [
+    {
+      "order": 1,
+      "title": "Desenvolvedor Sênior Full-Stack",
+      "company": "Eos Loan",
+      "company_linkedin_alias": "Eos",
+      "location": "Remoto",
+      "start": { "month": 8, "year": 2024, "label": "ago de 2024" },
+      "end": { "month": 6, "year": 2026, "label": "jun de 2026" },
+      "duration_linkedin": "1 ano 11 meses",
+      "is_current": false,
+      "description": "Contexto: fintech de financiamento de energia solar (crédito). Atuei em paralelo na evolução do legado em produção e no greenfield multi-tenant (crédito, integrações, dados, IA e UX).\n\n• Reduzi o motor de análise de crédito de ~5 minutos (Power Automate) para menos de 20 segundos, reescrevendo o fluxo em NestJS/TypeScript com orquestração assíncrona e APIs — eliminando gargalo crítico da jornada.\n\n• Otimizei a listagem de propostas (query crítica da operação), reduzindo carga no PostgreSQL e implementando cache — melhorando tempo de resposta em um dos fluxos mais usados do produto.\n\n• Implementei RAG e agents com contexto de domínio para atendimento (LLMs, embeddings/pgvector, Neo4j, MCP), com guardrails e foco em custo e utilidade real.\n\n• Entreguei full-stack end-to-end: Next.js 14+ (App Router, RSC, Server Actions) + APIs NestJS (JWT/OAuth, RBAC multi-tenant, PostgreSQL/MongoDB), CI/CD e deploy em GCP (Cloud Run, Pub/Sub, BigQuery, GKE).\n\n• Refatorei partes do legado com base em métrica; implementei observabilidade (Grafana, Loki, Prometheus, OpenTelemetry, Sentry, PostHog) para mapear robôs, funções e queries lentas.\n\n• Participei da arquitetura SaaS multi-tenant (DDD, event-driven, Pub/Sub, Turborepo, GitHub Actions/Cloud Build) e de refiners/guardrails em Python/FastAPI + automações n8n.\n\nStack: TypeScript · Next.js · NestJS · Python/FastAPI · PostgreSQL/pgvector · MongoDB · Neo4j · GCP · Docker · n8n",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "NestJS",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "MongoDB",
+        "Neo4j",
+        "GCP",
+        "Cloud Run",
+        "Pub/Sub",
+        "BigQuery",
+        "GKE",
+        "Docker",
+        "n8n",
+        "LLMs",
+        "RAG",
+        "MCP",
+        "Grafana",
+        "Loki",
+        "Prometheus",
+        "OpenTelemetry",
+        "Sentry",
+        "PostHog",
+        "JWT",
+        "OAuth",
+        "RBAC",
+        "Turborepo",
+        "GitHub Actions",
+        "Cloud Build",
+        "DDD"
+      ],
+      "highlights": [
+        "Motor de análise de crédito: ~5 min → <20 s (NestJS/TypeScript)",
+        "Otimização da listagem de propostas + cache (PostgreSQL)",
+        "RAG/agents com pgvector, Neo4j, MCP para atendimento",
+        "Observabilidade completa e arquitetura multi-tenant SaaS"
+      ],
+      "sources": ["gupy", "linkedin"]
+    },
+    {
+      "order": 2,
+      "title": "Desenvolvedor Pleno Full-Stack",
+      "company": "Unew Sistemas LTDA",
+      "location": "Remoto",
+      "start": { "month": 8, "year": 2023, "label": "ago de 2023" },
+      "end": { "month": 8, "year": 2024, "label": "ago de 2024" },
+      "duration_linkedin": "1 ano 1 mês",
+      "is_current": false,
+      "description": "Contexto: consultoria de software — produtos web full-stack para múltiplos clientes, em squad remoto com Scrum.\n\n• Entreguei produtos end-to-end em React/Next.js e NestJS/Fastify (TypeScript), com APIs REST/GraphQL e OpenAPI.\n\n• Modelei e implementei microsserviços de autenticação, usuários, e-mail e pagamentos (JWT/OAuth, RBAC, Redis, PostgreSQL, MongoDB) com webhooks e integrações REST.\n\n• Integrei gateways de pagamento (Stripe, Asaas, Mercado Pago conforme o projeto), cobrindo cobrança, status e confirmação via webhook — reduzindo atrito entre produto e fluxo financeiro.\n\n• Operei AWS no dia a dia (S3, IAM, EC2, RDS, CloudWatch, SQS) e Azure quando o cliente usava stack Microsoft; data-fetching com Apollo Client e TanStack Query em UIs reutilizáveis.\n\n• Elevei a confiabilidade de entrega com Docker, CI/CD e testes (Jest, Vitest, Playwright, Cypress), monitoramento com Sentry, Grafana e Prometheus; atuei em Scrum remoto e code review em squad multiárea.\n\nStack: TypeScript · NestJS · Fastify · React/Next · GraphQL · PostgreSQL · MongoDB · Redis · AWS · Docker",
+      "stack": [
+        "TypeScript",
+        "NestJS",
+        "Fastify",
+        "React",
+        "Next.js",
+        "GraphQL",
+        "REST",
+        "OpenAPI",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Jest",
+        "Vitest",
+        "Playwright",
+        "Cypress",
+        "Sentry",
+        "Grafana",
+        "Prometheus",
+        "Stripe",
+        "Asaas",
+        "Mercado Pago",
+        "Apollo Client",
+        "TanStack Query",
+        "Scrum"
+      ],
+      "highlights": [
+        "Produtos multi-cliente full-stack (consultoria)",
+        "Microsserviços auth/pagamentos + gateways (Stripe, Asaas, Mercado Pago)",
+        "AWS no dia a dia + testes e observabilidade"
+      ],
+      "sources": ["gupy", "linkedin"]
+    },
+    {
+      "order": 3,
+      "title": "Desenvolvedor Full-Stack",
+      "company": "Grupo ASE (Alex Sistemas Empresariais)",
+      "location": "Novo Progresso, Pará, Brasil · No local",
+      "start": { "month": 8, "year": 2021, "label": "ago de 2021" },
+      "end": { "month": 8, "year": 2023, "label": "ago de 2023" },
+      "duration_linkedin": "2 anos 1 mês",
+      "is_current": false,
+      "description": "Contexto: ERP multi-filial e automação comercial (Grupo ASE), operação presencial com impacto em comercial, fiscal e estoque.\n\n• Desenvolvi módulos full-stack do ERP (React/Vue.js no front e Node.js no back) com APIs REST entre módulos e filiais.\n\n• Mantive cadastros e regras de negócio em SQL Server e PostgreSQL para operação multi-filial em produção.\n\n• Sustentei sistema crítico de entrada/saída com biometria: correção de falhas, ajuste de performance e troubleshooting com baixa tolerância a downtime.\n\n• Introduzi testes unitários e de integração com Jest e participei de code review e fluxo Kanban; uso introdutório de AWS (S3, IAM, EC2) para arquivos e serviços do ERP.\n\nStack: Node.js · React · Vue.js · REST · SQL Server · PostgreSQL · Jest · Git · AWS",
+      "stack": [
+        "Node.js",
+        "React",
+        "Vue.js",
+        "REST",
+        "SQL Server",
+        "PostgreSQL",
+        "Jest",
+        "Git",
+        "AWS"
+      ],
+      "highlights": [
+        "ERP multi-filial em produção",
+        "Sistema crítico com biometria (alta disponibilidade)",
+        "Introdução de testes e AWS no ERP"
+      ],
+      "sources": ["gupy", "linkedin"]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "FIAP",
+      "course": "Engenharia de Software",
+      "degree": "Graduação",
+      "level": "Superior",
+      "status": "Em andamento",
+      "status_code": "in_progress",
+      "start": { "month": 1, "year": 2024, "label": "jan de 2024" },
+      "end": { "month": 1, "year": 2028, "label": "jan de 2028" },
+      "sources": ["gupy", "linkedin"]
+    }
+  ],
+
+  "skills": {
+    "gupy_30": [
+      "Embeddings",
+      "FastAPI",
+      "API da OpenAI",
+      "Grandes Modelos de Linguagem (LLMs)",
+      "n8n",
+      "LangChain",
+      "RAG (Retrieval-Augmented Generation)",
+      "Python",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis (software)",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Google Cloud",
+      "TypeScript",
+      "Playwright (software)",
+      "Microsserviços",
+      "GitHub Actions",
+      "Clean Architecture",
+      "Vue.js",
+      "Azure",
+      "Jest",
+      "JavaScript",
+      "React (software)",
+      "Next.js",
+      "Node.js",
+      "NestJS",
+      "Fastify",
+      "GraphQL"
+    ],
+    "linkedin_partial_plus_experience": [
+      "Prometheus.io",
+      "Geração aumentada de recuperação (RAG)",
+      "pgvector",
+      "n8n",
+      "Loki",
+      "PostHog",
+      "Playwright",
+      "LLMs locais",
+      "OpenTelemetry",
+      "Protocolo de contexto de modelo (MCP)",
+      "Grafana",
+      "Embeddings",
+      "Google BigQuery",
+      "Neo4j",
+      "TailwindCSS",
+      "FastAPI",
+      "Pub/Sub",
+      "Google Cloud Run",
+      "Python",
+      "Kubernetes",
+      "React.js",
+      "Node.js",
+      "Google Cloud Platform (GCP)",
+      "NestJS",
+      "TypeScript",
+      "Sentry",
+      "JWT",
+      "OAuth",
+      "RBAC",
+      "SQL Server",
+      "Stripe",
+      "Asaas",
+      "Mercado Pago",
+      "Apollo Client",
+      "TanStack Query",
+      "Vitest",
+      "Cypress",
+      "Turborepo",
+      "DDD",
+      "Scrum",
+      "Kanban"
+    ],
+    "grouped_for_resume": {
+      "languages": ["TypeScript", "JavaScript", "Python", "SQL"],
+      "frontend": ["React", "Next.js", "Vue.js", "TailwindCSS", "Apollo Client", "TanStack Query"],
+      "backend": ["Node.js", "NestJS", "Fastify", "FastAPI", "GraphQL", "REST", "OpenAPI", "Microsserviços"],
+      "data_ai": [
+        "LLMs",
+        "RAG",
+        "MCP",
+        "Embeddings",
+        "LangChain",
+        "OpenAI API",
+        "pgvector",
+        "Neo4j",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "BigQuery"
+      ],
+      "cloud_devops": [
+        "GCP",
+        "Cloud Run",
+        "GKE",
+        "Pub/Sub",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions",
+        "CI/CD",
+        "n8n"
+      ],
+      "observability_quality": [
+        "Grafana",
+        "Loki",
+        "Prometheus",
+        "OpenTelemetry",
+        "Sentry",
+        "PostHog",
+        "Jest",
+        "Vitest",
+        "Playwright",
+        "Cypress"
+      ],
+      "architecture_methods": [
+        "Clean Architecture",
+        "DDD",
+        "event-driven",
+        "RBAC multi-tenant",
+        "Scrum",
+        "Kanban",
+        "code review"
+      ]
+    }
+  },
+
+  "languages": [
+    { "language": "Português", "level": "Nativo/Fluente", "code": "portuguese", "level_code": "fluent" },
+    { "language": "Inglês", "level": "Intermediário", "code": "english", "level_code": "intermediate" }
+  ],
+
+  "certifications_and_courses": [
+    {
+      "type": "Certificado",
+      "type_code": "certificates",
+      "name": "API Design in Node.js, v5 (Frontend Masters)",
+      "description": "Frontend Masters com Scott Moss (~10h). API REST de hábitos em Node.js/Express + TypeScript: rotas e subrouters, middleware (CORS, Helmet, Zod); Postgres com Drizzle (schema, migrations, seed, Neon); auth JWT (register/login, bcrypt, rotas protegidas); CRUD com transactions; erros centralizados; testes de integração com Vitest/Supertest; deploy no Render."
+    },
+    {
+      "type": "Curso",
+      "type_code": "courses",
+      "name": "Google Cloud Fundamentals: Core Infrastructure (Google Skills)",
+      "description": "Google Skills (~5h, introdutório, labs hands-on). Fundamentos de Google Cloud: IaaS vs PaaS, hierarquia de recursos e IAM (roles, service accounts); Compute Engine, VPC, load balancing, Cloud DNS/CDN; storage (Cloud Storage, Cloud SQL, Spanner, Firestore, Bigtable); containers/GKE e apps em Cloud Run; noções de prompt engineering com Gemini no ecossistema Google Cloud."
+    },
+    {
+      "type": "Curso",
+      "type_code": "courses",
+      "name": "Getting Started with Google Kubernetes Engine (Google Skills)",
+      "description": "Google Skills (~5h45, intermediário, labs hands-on). GKE como Kubernetes gerenciado: plataformas de compute no Google Cloud; containers e imagens com Cloud Build; arquitetura Kubernetes (componentes, pods, objects; Autopilot vs Standard); operações com kubectl e introspecção; criar e gerenciar clusters GKE pelo Console, gcloud e Cloud Shell."
+    },
+    {
+      "type": "Curso",
+      "type_code": "courses",
+      "name": "Next.js Fundamentals, v4 (Frontend Masters)",
+      "description": "Frontend Masters com Scott Moss (~6h40). App Next.js do zero com App Router e TypeScript: rotas estáticas/dinâmicas, layouts e route groups; Server Actions para auth e CRUD; Data Access Layer, cache (dynamicIO, tags, revalidate), Suspense; API Routes; middleware e edge runtime; deploy na Vercel e testes com Vitest."
+    },
+    {
+      "type": "Curso",
+      "type_code": "courses",
+      "name": "Intermediate React, v6: RSCs, Hooks, & Performance (Frontend Masters)",
+      "description": "Frontend Masters com Brian Holt (~6h20). React 19+ na prática: modos de render (client, SSR, SSG); React Server Components do zero e com Next.js; server actions e fronteira server/client; performance com memo, useCallback, useTransition, useDeferredValue e useOptimistic; updates otimistas e UX responsiva."
+    }
+  ],
+
+  "recommendations_linkedin": [
+    {
+      "from": "Ewerton Igor",
+      "headline": "Fullstack Developer | Node.js | React.js | Typescript | AI Automation | AI Agents - RAG & MCP",
+      "relationship": "Trabalhou na mesma equipe (~1 ano)",
+      "summary": "Equilíbrio técnico e prático full-stack; colaborativo, confiável e recomendado sem dúvidas."
+    },
+    {
+      "from": "Pedro Henrique Lima Silva",
+      "headline": "Software Developer | Node | Typescript | React | AI & Automation | AWS",
+      "relationship": "Trabalhou junto na Eos Loan",
+      "summary": "Alta qualidade, arquitetura e escalabilidade; projetos com IA, knowledge graphs e integrações; forte comunicação e colaboração."
+    }
+  ],
+
+  "linkedin_stats": {
+    "connections": 456,
+    "followers": 461,
+    "profile_views_recent": 34,
+    "post_impressions_7d": 32,
+    "search_appearances": 8,
+    "profile_language": ["Português", "English"]
+  },
+
+  "gupy_extra": {
+    "curriculum_updated_at": "2026-07-25T00:21:50.818Z",
+    "has_disabilities": false,
+    "diversity": {
+      "country_of_origin": "BR",
+      "state_of_origin": "PA",
+      "city_of_origin": "Novo Progresso",
+      "gender_identity": "cisgender",
+      "gender_pronoun": "he_him",
+      "sexual_orientation": "heterosexual",
+      "race_color": "white"
+    },
+    "career_pages_sample_count": 27,
+    "career_pages_examples": [
+      "Grupo Boticário",
+      "UOL EdTech",
+      "Afya",
+      "Localiza&Co",
+      "Méliuz",
+      "Stefanini Group",
+      "FCamara",
+      "Invillia"
+    ]
+  },
+
+  "resume_ready": {
+    "target_title_options": [
+      "Desenvolvedor Full-Stack Sênior",
+      "Full-Stack Engineer (AI Products)",
+      "Software Engineer — Full-Stack + AI"
+    ],
+    "suggested_summary_1_paragraph": "Desenvolvedor Full-Stack com ~5 anos de experiência, atuação sênior em fintech de energia solar e produtos de IA. Entrega end-to-end em Next.js, NestJS e TypeScript, com LLMs, RAG, agents e MCP em produção. Destaque: reescreveu motor de análise de crédito de ~5 min para <20 s; otimizou queries críticas e observabilidade em GCP. Aberto a mid/senior remoto (BR ou gringa).",
+    "page_target": "1 página (ATS, coluna única)",
+    "missing_for_cv": [
+      "GitHub URL (não encontrado nas fontes)",
+      "Portfólio / site pessoal (não encontrado)",
+      "Projetos pessoais com link (LinkedIn sugeriu adicionar)",
+      "Confirmar se Eos é 'atual' ou encerrado em jun/2026 para o CV"
+    ]
+  }
+}

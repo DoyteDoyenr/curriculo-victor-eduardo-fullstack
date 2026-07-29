@@ -1,0 +1,49 @@
+# Playwright / browser automation dumps
+.playwright-mcp/
+*.playwright.*
+
+# Snapshots e dumps temporários de scraping
+*-snap.md
+*-snapshot.md
+linkedin-*.json
+linkedin-*.txt
+gupy-*.json
+gupy-*.md
+gupy-*.txt
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SO
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editores / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env e segredos locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências (se adicionar build depois)
+node_modules/
+dist/
+build/
+.cache/
+
+# Artefatos gerados locais (descomente se não quiser versionar)
+# *.pdf
+# ~$*
